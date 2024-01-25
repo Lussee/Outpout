@@ -1,0 +1,108 @@
+body{
+  margin: 0;
+  font-family: arial;
+}
+
+ .links {
+  display: flex;
+  justify-content: flex-end;
+}
+ .link {
+  margin: 10px 30px;
+  color: #BB2528;
+  text-decoration: none;
+}
+ .link:hover {
+  color: #458D2E;
+}
+ .logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+
+.titre-heroheader {
+  text-align: center;
+  color: white;
+}
+
+
+/*Banner*/
+body {
+  margin: 0;
+}
+ .banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://us-tuna-sounds-images.voicemod.net/ff504f61-150a-4e9e-8b92-177634e22f35-1697055573706.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  height: 760px;
+  padding: 150px;
+}
+ .banner h1, .banner p {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+
+.sous-titre {
+text-align: center;
+font-size: 20pt;
+color: white;
+}
+
+
+.background-1 {
+  background-color: black;
+  height: 1400px;
+  padding: 150px;
+}
+
+
+.background-2 {
+  background-color: #458D2E;
+  height: 760px;
+  padding: 150px;
+}
+
+.background-3 {
+  background-color: black;
+  height: 500px;
+  width: 1900px;
+  padding: 150px;
+}
+
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #3498db; /* Couleur du cercle (à personnaliser) */
+  margin: 0 auto; /* Centre le cercle dans la colonne */
+  margin-bottom: 10px; /* Espacement entre le cercle et le paragraphe */
+}
+
+
+/* Style de réinitialisation pour supprimer les marges par défaut des éléments */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Style pour le paragraphe de lorem ipsum */
+.p-cercles {
+  margin-bottom: 20px; /* Espacement entre les paragraphes */
+  text-align: center; /* Centre le texte dans la colonne */
+  color: white;
+}
+
+
+/* Ajout de styles CSS pour la mise en page de la section */
+.column {
+  width: 30%; /* Largeur de chaque colonne */
+  float: left; /* Alignement des colonnes à gauche */
+  margin: 1%; /* Espacement entre les colonnes */
+  text-align: center; /* Centre le contenu dans chaque colonne */
+}
