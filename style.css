@@ -251,7 +251,6 @@ body {
  }
  .sous-titre {
  text-align: center;
- font-size: 20pt;
  color: white;
  }
  
@@ -439,7 +438,6 @@ body {
  .sous-sous-titre {
   color: black;
   text-align: center;
-  padding-bottom: 30px;
  }
 
  .card-2 {
@@ -557,141 +555,79 @@ footer {
   }
 
 
- /*MODAL BOX JE SAIS PAS OU JE LA METS*/
- /* [Object] Modal
- * =============================== */
-.modal {
-  opacity: 0;
-  visibility: hidden;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  text-align: left;
-  background: rgba(0,0,0, .9);
-  transition: opacity .25s ease;
+ /*Ajout de codes de codepen*/
+ ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
 }
 
-.modal__bg {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  cursor: pointer;
-}
 
-.modal-state {
-  display: none;
+.middle-container .social {
+  height: 205px;
+  background: #1f253d;
 }
-
-.modal-state:checked + .modal {
-  opacity: 1;
-  visibility: visible;
-}
-
-.modal-state:checked + .modal .modal__inner {
-  top: 0;
-}
-
-.modal__inner {
-  transition: top .25s ease;
-  position: absolute;
-  top: -20%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 50%;
-  margin: auto;
-  overflow: auto;
-  background: #fff;
-  border-radius: 5px;
-  padding: 1em 2em;
-  height: 50%;
-}
-
-.modal__close {
-  position: absolute;
-  right: 1em;
-  top: 1em;
-  width: 1.1em;
-  height: 1.1em;
-  cursor: pointer;
-}
-
-.modal__close:after,
-.modal__close:before {
-  content: '';
-  position: absolute;
-  width: 2px;
-  height: 1.5em;
-  background: #ccc;
-  display: block;
-  transform: rotate(45deg);
-  left: 50%;
-  margin: -3px 0 0 -1px;
-  top: 0;
-}
-
-.modal__close:hover:after,
-.modal__close:hover:before {
-  background: #aaa;
-}
-
-.modal__close:before {
-  transform: rotate(-45deg);
-}
-
-@media screen and (max-width: 768px) {
-	
-  .modal__inner {
-    width: 90%;
-    height: 90%;
-    box-sizing: border-box;
+  .middle-container .social li {
+    margin-bottom: 12px;
   }
-}
-
-
-/* Other
- * =============================== */
-
-
-.btn {
-  cursor: pointer;
-  background: #27ae60;
-  display: inline-block;
-  padding: .5em 1em;
-  color: #fff;
-  border-radius: 3px;
-}
-
-.btn:hover,
-.btn:focus {
-  background: #2ecc71;
-}
-
-.btn:active {
-  background: #27ae60;
-  box-shadow: 0 1px 2px rgba(0,0,0, .2) inset;
-}
-
-.btn--blue {
-  background: #2980b9;
-}
-
-.btn--blue:hover,
-.btn--blue:focus {
-  background: #3498db;
-}
-
-.btn--blue:active {
-  background: #2980b9;
-}
-
-p img {
-  max-width: 200px;
-  height: auto;
-  float: left;
-  margin: 0 1em 1em 0;
-}
+  .middle-container .social a {
+    line-height: 60px;			
+  }
+    .middle-container .social a:hover {
+      text-decoration: none;
+    }
+    .middle-container .social .titular {
+      border-radius: 5px;
+    }
+      .middle-container .social .facebook {
+        background: #3468af;
+        -webkit-transition: background .3s;
+        transition: background .3s;
+      }
+        .middle-container .social a:hover .facebook {
+          background: #1a4e95;
+        }
+        .middle-container .social a:hover .icon.facebook {
+          background: #3468af;
+        }
+      .middle-container .social .twitter {
+        background: #4fc4f6;
+        -webkit-transition: background .3s;
+        transition: background .3s;
+      }
+        .middle-container .social a:hover .twitter {
+          background: #35aadc;
+        }
+        .middle-container .social a:hover .icon.twitter {
+          background: #4fc4f6;
+        }
+      .middle-container .social .googleplus {
+        background: #e64c65;
+        -webkit-transition: background .3s;
+        transition: background .3s;
+      }
+        .middle-container .social a:hover .googleplus {
+          background: #cc324b;
+        }
+        .middle-container .social a:hover .icon.googleplus {
+          background: #e64c65;
+        }
+  .middle-container .social .icon {
+    float: left;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+    .middle-container .social .icon.facebook {
+      background: #1a4e95;						
+    }
+    .middle-container .social .icon.twitter {
+      background: #35aadc;						
+    }
+    .middle-container .social .icon.googleplus {
+      background: #cc324b;						
+    }
+    /*i gave up https://codepen.io/jlalovi/pen/nYgyEg*/
